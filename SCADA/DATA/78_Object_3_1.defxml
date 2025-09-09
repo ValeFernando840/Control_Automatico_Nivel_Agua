@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<default>
+<gauge x="480" y="400" width="100" height="300" fill="none" stroke="none"/>
+<style gap="2" fmtscale="x">3</style>
+<border>0</border>
+<show Circular3D="0"/>
+<colors slider="2147483664" knob="2147483653" barbk="0" barfill="2147483652" scale="2147483666" needleedge="2147483664" needlebk="2147483663" needleshadow="2147483664"/>
+<execution var="Level_Tank_" min="7" max="35" startangle="270" endangle="90" knobstyle="3"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" XOffset="0" YOffset="0"/>
+<zone0 color="65280" start="0" end="70" startVar="" endVar="">0</zone0>
+<zone1 color="65535" start="70" end="90" startVar="" endVar="">0</zone1>
+<zone2 color="255" start="90" end="100" startVar="" endVar="">0</zone2>
+<zone3 color="11434057" start="0" end="0" startVar="" endVar="">0</zone3>
+<zone4 color="14627633" start="0" end="0" startVar="" endVar="">0</zone4>
+<Name AntialiasingFont="1" acr="458752" acw="393216" AccessLevel="1"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</default>

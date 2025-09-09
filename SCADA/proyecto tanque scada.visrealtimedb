@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<RealTimeDB>
+<AreaData NumInput="32768" NumOutput="32768" NumFlag="32768" UseSharedMemory="0" EnableInUseVarMng="1" EnableTimeStampNotifying="0" UseSharedDynTag="0" UseInputImage="0" UseOutputImage="0" PurgeDynTagTimer="20000" RetWriteDelay="5"/>
+<EnableRetFlags RetFlagFrom="0" RetFlagTo="16384">1</EnableRetFlags>
+<EnableRetInput RetInputFrom="0" RetInputTo="16384">1</EnableRetInput>
+<EnableRetOutput RetOutputFrom="0" RetOutputTo="16384">1</EnableRetOutput>
+<EnableOPCUAServer UAAccessLevel="0">0</EnableOPCUAServer>
+<EnableOPCServer OPCServerName="" OPCServerDescription="" EnableOPCServerAE="0" EnableOPCServerDynTag="1" OPCServerDebugEvents="0" OPCServerAutoShutdown="0" OPCServerAutoUnregister="0" OPCServerAutoRegister="0" OPCServerRefreshRate="250" OPCServerShutdownClientsTimeout="5000" OPCServerEnableAEAck="0" OPCServerThreadingMode="1" SINGLE_PATH_SEPARATOR="$" DOUBLE_PATH_SEPARATOR="$$" OPX_PATH_SEPARATOR="~">0</EnableOPCServer>
+<EnableOPXServer Transport="HTTP" Port="9090" AccepterThreads="10" MinThreadPool="5" MaxThreadPool="20" RequestBacklog="5" RequestTimeout="60000" RequestBuffersize="4096" KeepAlive="0" VendorInfo="" EnableSecurity="0" MinAccLevel="0">0</EnableOPXServer>
+<EnableNTSecurityOPCServerTag OPCServerMinImpersonationLevel="0">0</EnableNTSecurityOPCServerTag>
+<szTraceDBSettings RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="1" MaxNumberTrans="10" Dsn="" User="" TimeCol="" MSecCol="" LocalTimeCol="" UserCol="" ChangerCol="" ValueBeforeCol="" ValueAfterCol="" ValueCol="" QualityCol="" TimeStampCol="" VarNameCol="" VarGroupNameCol="" VarDescriptionCol="" MaxCacheBeforeFlush="32767" DefVarCharPrecision="255" UseInMemoryDB="0" IMDBSharedTable="0" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<RealTimeODBCSettings RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" Dsn="" User="" DefVarCharPrecision="255" TableName="" NameCol="" ValueCol="" MinValueCol="" MaxValueCol="" AveValueCol="" TotalTimeCol="" LastTimeOnCol=""/>
+<VariableList>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Height_Percentage</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Mean_Pressure</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_System_Failure</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+<AlarmList n0="Alarm00002"/>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Luz_Remoto</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Switch_Manual_Remoto</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Velocidad_Manual</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Pump_Pressure_Failure</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+<AlarmList n0="Alarm00004"/>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Height_Level_Int</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Height_Level</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Luz_Proceso</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Set_Point_Local</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Set_Point_Remoto</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Switch_Manual</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_OffSet_Height</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Luz_Manual</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_b_Light_Maximum_Height_Exceeded</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Maximum_Height_Exceeded</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+<AlarmList n0="Alarm00001"/>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Marcha_Remota</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="7" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Pressure_In_The_Pump</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_b_Light_Electrical_Failure</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_b_Light_Pump_Pressure_Failure</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Failure_Water</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+<AlarmList n0="Alarm00003"/>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Parada_Remota</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_b_Light_Failure_Water</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Luz_Falla</Name>
+<EnableTrace DurationDays="730">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+</VariableList>
+<DriverList/>
+<RenamedVariables/>
+<StructureList>
+<Structure>
+<Name Description="">_SysVar_</Name>
+<MemberList>
+<Member>
+<Name Type="8">SimSinDouble</Name>
+</Member>
+<Member>
+<Name Type="1">SimSinInt</Name>
+</Member>
+<Member>
+<Name Type="8">SimCosDouble</Name>
+</Member>
+<Member>
+<Name Type="1">SimCosInt</Name>
+</Member>
+<Member>
+<Name Type="8">SimRampDouble</Name>
+</Member>
+<Member>
+<Name Type="3">SimRampInt</Name>
+</Member>
+<Member>
+<Name Type="8">SimRandDouble</Name>
+</Member>
+<Member>
+<Name Type="3">SimRandInt</Name>
+</Member>
+<Member>
+<Name Type="9">SimRandString</Name>
+</Member>
+<Member>
+<Name Type="2">ActTimeSec</Name>
+</Member>
+<Member>
+<Name Type="2">ActTimeMin</Name>
+</Member>
+<Member>
+<Name Type="2">ActTimeHour</Name>
+</Member>
+<Member>
+<Name Type="2">ActTimeDay</Name>
+</Member>
+<Member>
+<Name Type="2">ActTimeMonth</Name>
+</Member>
+<Member>
+<Name Type="4">ActTimeYear</Name>
+</Member>
+<Member>
+<Name Type="9">ActTimeString</Name>
+</Member>
+<Member>
+<Name Type="9">ActDateString</Name>
+</Member>
+<Member>
+<Name Type="4">StrobeYearLocalTime</Name>
+</Member>
+<Member>
+<Name Type="2">StrobeMonthLocalTime</Name>
+</Member>
+<Member>
+<Name Type="2">StrobeDayLocalTime</Name>
+</Member>
+<Member>
+<Name Type="2">StrobeHourLocalTime</Name>
+</Member>
+<Member>
+<Name Type="2">StrobeMinuteLocalTime</Name>
+</Member>
+<Member>
+<Name Type="2">StrobeSecondLocalTime</Name>
+</Member>
+<Member>
+<Name Type="0">StrobeLocalTime</Name>
+</Member>
+<Member>
+<Name Type="0">StrobeExitApp</Name>
+</Member>
+<Member>
+<Name Type="0">CommDriverStatus</Name>
+</Member>
+<Member>
+<Name Type="0">HisLogODBCStatus</Name>
+</Member>
+<Member>
+<Name Type="0">TraceODBCStatus</Name>
+</Member>
+<Member>
+<Name Type="0">RealTimeODBCStatus</Name>
+</Member>
+<Member>
+<Name Type="4">ActiveScreen</Name>
+</Member>
+<Member>
+<Name Type="0">ControlKeyDown</Name>
+</Member>
+<Member>
+<Name Type="0">AltKeyDown</Name>
+</Member>
+<Member>
+<Name Type="0">ShiftKeyDown</Name>
+</Member>
+<Member>
+<Name Type="4">LastKeyPressed</Name>
+</Member>
+<Member>
+<Name Type="2">ToggleBits</Name>
+</Member>
+<Member>
+<Name Type="4">NumberNotAckAlarms</Name>
+</Member>
+<Member>
+<Name Type="4">AlarmsActive</Name>
+</Member>
+<Member>
+<Name Type="0">AlarmsSoundState</Name>
+</Member>
+<Member>
+<Name Type="9">LastAlarmText</Name>
+</Member>
+<Member>
+<Name Type="0">MouseMove</Name>
+</Member>
+<Member>
+<Name Type="0">OutputAckAlarms</Name>
+</Member>
+<Member>
+<Name Type="0">OutputResetAlarms</Name>
+</Member>
+<Member>
+<Name Type="0">InputAckAlarms</Name>
+</Member>
+<Member>
+<Name Type="0">InputResetAlarms</Name>
+</Member>
+<Member>
+<Name Type="9">ActiveUserName</Name>
+</Member>
+<Member>
+<Name Type="3">ActivePassLevel</Name>
+</Member>
+<Member>
+<Name Type="5">ActiveMaskLevel</Name>
+</Member>
+<Member>
+<Name Type="4">DispatchingQueueCount</Name>
+</Member>
+<Member>
+<Name Type="0">StrobeEmptyDispatcher</Name>
+</Member>
+<Member>
+<Name Type="0">StrobeLoadScreen</Name>
+</Member>
+<Member>
+<Name Type="4">ScreenToLoad</Name>
+</Member>
+<Member>
+<Name Type="9">HostType</Name>
+</Member>
+<Member>
+<Name Type="9">HostIP</Name>
+</Member>
+<Member>
+<Name Type="4">PlatformVerMajor</Name>
+</Member>
+<Member>
+<Name Type="4">PlatformVerMinor</Name>
+</Member>
+<Member>
+<Name Type="4">PlatformVerBuild</Name>
+</Member>
+<Member>
+<Name Type="9">PlatformType</Name>
+</Member>
+<Member>
+<Name Type="9">StartupTime</Name>
+</Member>
+<Member>
+<Name Type="9">CPUNameString</Name>
+</Member>
+<Member>
+<Name Type="9">CPUVendorIdentifier</Name>
+</Member>
+<Member>
+<Name Type="9">CPUIdentifier</Name>
+</Member>
+<Member>
+<Name Type="9">CPUSpeed</Name>
+</Member>
+<Member>
+<Name Type="4">CPUProcessorType</Name>
+</Member>
+<Member>
+<Name Type="9">WinMajor</Name>
+</Member>
+<Member>
+<Name Type="9">WinMinor</Name>
+</Member>
+<Member>
+<Name Type="9">BuildNumber</Name>
+</Member>
+<Member>
+<Name Type="9">ServicePack</Name>
+</Member>
+<Member>
+<Name Type="9">OSType</Name>
+</Member>
+<Member>
+<Name Type="9">TimeZoneBias</Name>
+</Member>
+<Member>
+<Name Type="9">IntColumnSep</Name>
+</Member>
+<Member>
+<Name Type="9">IntTimeSep</Name>
+</Member>
+<Member>
+<Name Type="9">IntDateSep</Name>
+</Member>
+<Member>
+<Name Type="9">ShortDateFmt</Name>
+</Member>
+<Member>
+<Name Type="9">TimeFmt</Name>
+</Member>
+<Member>
+<Name Type="9">WorkingDir</Name>
+</Member>
+<Member>
+<Name Type="9">LoginUserName</Name>
+</Member>
+<Member>
+<Name Type="9">IsUserAdmin</Name>
+</Member>
+<Member>
+<Name Type="4">MemoryLoad</Name>
+</Member>
+<Member>
+<Name Type="8">MemoryTotalPhys</Name>
+</Member>
+<Member>
+<Name Type="8">MemoryAvailPhys</Name>
+</Member>
+<Member>
+<Name Type="8">MemoryTotalPageFile</Name>
+</Member>
+<Member>
+<Name Type="8">MemoryAvailPageFile</Name>
+</Member>
+<Member>
+<Name Type="8">MemoryTotalVirtual</Name>
+</Member>
+<Member>
+<Name Type="8">MemoryAvailVirtual</Name>
+</Member>
+<Member>
+<Name Type="6">IMDBLocalMemoryUsed</Name>
+</Member>
+<Member>
+<Name Type="6">IMDBSharedMemoryUsed</Name>
+</Member>
+<Member>
+<Name Type="6">IMDBLocalMemoryReserved</Name>
+</Member>
+<Member>
+<Name Type="6">IMDBSharedMemoryReserved</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceAlarmPath</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceResourcePath</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceImagePath</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceLogPath</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceDLRPath</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceNetworkUserPath</Name>
+</Member>
+<Member>
+<Name Type="8">FreeSpaceDataUserPath</Name>
+</Member>
+<Member>
+<Name Type="4">ILLogicCycleTime</Name>
+</Member>
+<Member>
+<Name Type="0">ProjectRunning</Name>
+</Member>
+<Member>
+<Name Type="0">ProjectRunningInDemo</Name>
+</Member>
+<Member>
+<Name Type="9">LicenseCode</Name>
+</Member>
+<Member>
+<Name Type="4">NumTCPClient</Name>
+</Member>
+<Member>
+<Name Type="4">NumTCPOutgoingMessages</Name>
+</Member>
+<Member>
+<Name Type="4">NumUDPClient</Name>
+</Member>
+<Member>
+<Name Type="4">NumUDPOutgoingMessages</Name>
+</Member>
+<Member>
+<Name Type="4">NumHTTPClient</Name>
+</Member>
+<Member>
+<Name Type="4">NumHTTPOutgoingMessages</Name>
+</Member>
+<Member>
+<Name Type="4">NumLocalClient</Name>
+</Member>
+<Member>
+<Name Type="4">NumLocalOutgoingMessages</Name>
+</Member>
+<Member>
+<Name Type="4">NumWebClientConnected</Name>
+</Member>
+<Member>
+<Name Type="4">PeekInUseByte</Name>
+</Member>
+<Member>
+<Name Type="4">TotalInUseByte</Name>
+</Member>
+<Member>
+<Name Type="4">PendingLogEntries</Name>
+</Member>
+<Member>
+<Name Type="4">PendingTraceEntries</Name>
+</Member>
+<Member>
+<Name Type="4">PendingDLREntries</Name>
+</Member>
+<Member>
+<Name Type="4">OPCServerNumClients</Name>
+</Member>
+<Member>
+<Name Type="4">NumInUseVar</Name>
+</Member>
+<Member>
+<Name Type="4">NumDynVar</Name>
+</Member>
+<Member>
+<Name Type="4">NumExpressions</Name>
+</Member>
+<Member>
+<Name Type="4">NumActiveUsers</Name>
+</Member>
+<Member>
+<Name Type="4">NumActiveAlarms</Name>
+</Member>
+<Member>
+<Name Type="4">NumActiveAlarmsON</Name>
+</Member>
+<Member>
+<Name Type="4">NumActiveAlarmsOFF</Name>
+</Member>
+<Member>
+<Name Type="4">NumActiveSubscribedAlarms</Name>
+</Member>
+<Member>
+<Name Type="4">NumLoadedScriptRes</Name>
+</Member>
+<Member>
+<Name Type="4">NumLoadedScreenRes</Name>
+</Member>
+<Member>
+<Name Type="4">NumLoadedAcceleratorRes</Name>
+</Member>
+<Member>
+<Name Type="4">NumLoadedMenuRes</Name>
+</Member>
+<Member>
+<Name Type="9">SRActiveShortcut</Name>
+</Member>
+<Member>
+<Name Type="0">SRListening</Name>
+</Member>
+<Member>
+<Name Type="9">SRLastUnderstood</Name>
+</Member>
+<Member>
+<Name Type="0">SRIsActive</Name>
+</Member>
+</MemberList>
+</Structure>
+</StructureList>
+</RealTimeDB>

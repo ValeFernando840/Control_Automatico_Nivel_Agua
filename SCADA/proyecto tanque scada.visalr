@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Alarms>
+<AlarmList>
+<Alarm>
+<Name Device="" Variable="" Area="" ThresholdExclusive="0" Enabled="1" OnQualityGood="1" VariableDuration="0" EnableVariable="" EnableDispMsg="" Hysteresis="0" EventsCache="1204">Digital Alarm</Name>
+<ThresholdList>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">Digital</Name>
+<Execution Condition="2" Threshold="1" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+</ThresholdList>
+</Alarm>
+<Alarm>
+<Name Device="" Variable="" Area="" ThresholdExclusive="0" Enabled="1" OnQualityGood="1" VariableDuration="0" EnableVariable="" EnableDispMsg="" Hysteresis="0" EventsCache="1204">Analog Alarm</Name>
+<ThresholdList>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">LowLow</Name>
+<Execution Condition="1" Threshold="-100" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">Low</Name>
+<Execution Condition="1" Threshold="-90" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">High</Name>
+<Execution Condition="0" Threshold="90" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">HighHigh</Name>
+<Execution Condition="0" Threshold="100" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+</ThresholdList>
+</Alarm>
+<Alarm>
+<Name Device="" Variable="" Area="" ThresholdExclusive="0" Enabled="1" OnQualityGood="1" VariableDuration="0" EnableVariable="" EnableDispMsg="" Hysteresis="0" EventsCache="1204">Alarm00001</Name>
+<ThresholdList>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">Altura_Máxima</Name>
+<Execution Condition="0" Threshold="1" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+</ThresholdList>
+</Alarm>
+<Alarm>
+<Name Device="" Variable="" Area="" ThresholdExclusive="0" Enabled="1" OnQualityGood="1" VariableDuration="0" EnableVariable="" EnableDispMsg="" Hysteresis="0" EventsCache="1204">Alarm00002</Name>
+<ThresholdList>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">Falla_Eléctrica</Name>
+<Execution Condition="0" Threshold="1" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+</ThresholdList>
+</Alarm>
+<Alarm>
+<Name Device="" Variable="" Area="" ThresholdExclusive="0" Enabled="1" OnQualityGood="1" VariableDuration="0" EnableVariable="" EnableDispMsg="" Hysteresis="0" EventsCache="1204">Alarm00003</Name>
+<ThresholdList>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">Falla_Cisterna</Name>
+<Execution Condition="0" Threshold="1" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+</ThresholdList>
+</Alarm>
+<Alarm>
+<Name Device="" Variable="" Area="" ThresholdExclusive="0" Enabled="1" OnQualityGood="1" VariableDuration="0" EnableVariable="" EnableDispMsg="" Hysteresis="0" EventsCache="1204">Alarm00004</Name>
+<ThresholdList>
+<Threshold>
+<Name Area="" Title="" Help="" DurationFormat="" ReadAccessLevel="4294901760" WriteAccessLevel="4294901760">Falla_Presión_Cañeria</Name>
+<Execution Condition="0" Threshold="1" ThresholdVar="" ThresholdLow="0" ThresholdVarLow="" VariableStatus="" Severity="1" SeverityVar="" SecDelay="0" RunCommandAtServer="0"/>
+<Commands/>
+<CommandsOn/>
+<CommandsAck/>
+<CommandsReset/>
+<CommandsOff/>
+<Style BackColor="4294967295" TextColor="4294967295" BlinkBackColor="4294967295" BlinkTextColor="4294967295" Print="1" Log="1" BlinkOnNewAlarm="1" VarTimeStamp="0" SupportAck="1" SupportReset="1" SupportResetConditionOn="1" BmpFile="" SndFile="" BeepEnabled="1" SpeechEnabled="0" RepeatSpeechEverySec="0" EnableSpeechVariable="" PlaysoundContinuosly="0" CommentOnAck="0"/>
+<Recipient Attachment="" DispatchingText=""/>
+<SendEmail SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendVoice SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendSMS SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendFax SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendAdminAlert SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+<SendMessenger SendON="0" SendACK="0" SendRESET="0" SendOFF="0"/>
+</Threshold>
+</ThresholdList>
+</Alarm>
+</AlarmList>
+</Alarms>

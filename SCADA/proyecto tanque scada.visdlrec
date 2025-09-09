@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DLAndRecipe>
+<DLRecipeList>
+<DLRecipe>
+<Name CRWFile="" printer="" Enabled="1" IsRecipe="0" EnableTimeFromTo="0" RecordOnTime="1" RecordOnVariable="0" RecordOnChange="0" RecordOnQualityGood="0" EnableDeadBand="0" DeadBandPercent="1" DeadBand="30" TimeRecHour="0" TimeRecMin="0" TimeRecSec="1" TimeRecMsec="0" EnableTimeFrom="2025-02-27T12:23:31Z" EnableTimeTo="2025-02-27T12:23:31Z">Height</Name>
+<DSN TableName="" RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" MaxCacheBeforeFlush="32767" User="" VarCharsMax="255" TimeCol="" LocalTimeCol="" MSecCol="" ReasonColName="" UserColName="" DurationDays="730" DurationHours="0" DurationMinutes="0" UseInMemoryDB="0" IMDBSharedTable="1" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<Variables Record="" Print="" Reset="" Status="" EnableTime=""/>
+<ColumnList>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Height_Level" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">PLCnext_Arp_Plc_Eclr_Height_Level</Name>
+</Column>
+</ColumnList>
+</DLRecipe>
+<DLRecipe>
+<Name CRWFile="" printer="" Enabled="1" IsRecipe="0" EnableTimeFromTo="0" RecordOnTime="0" RecordOnVariable="0" RecordOnChange="1" RecordOnQualityGood="0" EnableDeadBand="0" DeadBandPercent="1" DeadBand="30" TimeRecHour="0" TimeRecMin="0" TimeRecSec="5" TimeRecMsec="0" EnableTimeFrom="2025-03-06T17:22:04Z" EnableTimeTo="2025-03-06T17:22:04Z">Eventos</Name>
+<DSN TableName="" RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" MaxCacheBeforeFlush="32767" User="" VarCharsMax="255" TimeCol="" LocalTimeCol="" MSecCol="" ReasonColName="" UserColName="" DurationDays="730" DurationHours="0" DurationMinutes="0" UseInMemoryDB="0" IMDBSharedTable="1" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<Variables Record="" Print="" Reset="" Status="" EnableTime=""/>
+<ColumnList>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Failure_Water" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">Failure_Water</Name>
+</Column>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Maximum_Height_Exceeded" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">Maximum_Height_Exceeded</Name>
+</Column>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Pump_Pressure_Failure" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">Pump_Pressure_Failure</Name>
+</Column>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_System_Failure" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">System_Failure</Name>
+</Column>
+</ColumnList>
+</DLRecipe>
+<DLRecipe>
+<Name CRWFile="" printer="" Enabled="1" IsRecipe="0" EnableTimeFromTo="0" RecordOnTime="1" RecordOnVariable="0" RecordOnChange="0" RecordOnQualityGood="0" EnableDeadBand="0" DeadBandPercent="1" DeadBand="30" TimeRecHour="0" TimeRecMin="0" TimeRecSec="5" TimeRecMsec="0" EnableTimeFrom="2025-03-11T15:46:56Z" EnableTimeTo="2025-03-11T15:46:56Z">Caudalimetro</Name>
+<DSN TableName="" RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" MaxCacheBeforeFlush="32767" User="" VarCharsMax="255" TimeCol="" LocalTimeCol="" MSecCol="" ReasonColName="" UserColName="" DurationDays="730" DurationHours="0" DurationMinutes="0" UseInMemoryDB="0" IMDBSharedTable="1" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<Variables Record="" Print="" Reset="" Status="" EnableTime=""/>
+<ColumnList>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro</Name>
+</Column>
+</ColumnList>
+</DLRecipe>
+<DLRecipe>
+<Name CRWFile="" printer="" Enabled="1" IsRecipe="0" EnableTimeFromTo="0" RecordOnTime="1" RecordOnVariable="0" RecordOnChange="0" RecordOnQualityGood="0" EnableDeadBand="0" DeadBandPercent="1" DeadBand="30" TimeRecHour="0" TimeRecMin="0" TimeRecSec="5" TimeRecMsec="0" EnableTimeFrom="2025-03-11T16:06:19Z" EnableTimeTo="2025-03-11T16:06:19Z">SetPoints y Hight level</Name>
+<DSN TableName="" RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" MaxCacheBeforeFlush="32767" User="" VarCharsMax="255" TimeCol="" LocalTimeCol="" MSecCol="" ReasonColName="" UserColName="" DurationDays="730" DurationHours="0" DurationMinutes="0" UseInMemoryDB="0" IMDBSharedTable="1" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<Variables Record="" Print="" Reset="" Status="" EnableTime=""/>
+<ColumnList>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Height_Level" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">PLCnext_Arp_Plc_Eclr_Height_Level</Name>
+</Column>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Set_Point_Remoto" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">PLCnext_Arp_Plc_Eclr_Set_Point_Remoto</Name>
+</Column>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value</Name>
+</Column>
+</ColumnList>
+</DLRecipe>
+</DLRecipeList>
+</DLAndRecipe>

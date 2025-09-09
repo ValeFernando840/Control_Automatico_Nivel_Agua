@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="6" SizeX="1024" SizeY="768" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="0" YBackImage="0" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="16777215" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="1" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="1" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ListSynopticDraw>
+<child>
+<object>base</object>
+<type x="0" y="0" width="1024" height="61" fill="rgb(64,64,64)" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="rgb(64,64,64)">0</ExtFill>
+<Name acr="4294901760"/>
+<text font-family="Tahoma" font-size="30" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">Alarmas</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>EmbView</object>
+<EmbeddedView x="2" y="707" width="1020" height="59" Name="NavigationBar" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Button</object>
+<type x="120" y="600" width="100" height="100" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="PLCnext_Arp_Plc_Eclr_b_Light_Maximum_Height_Exceeded" MechanicStyle="1" CentralZero="0" PushStyleEx3="8" PushStyleEx2="8" PushStyleEx="8" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Button</object>
+<type x="770" y="600" width="100" height="100" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="PLCnext_Arp_Plc_Eclr_b_Light_Pump_Pressure_Failure" MechanicStyle="1" CentralZero="0" PushStyleEx3="8" PushStyleEx2="8" PushStyleEx="8" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Button</object>
+<type x="520" y="600" width="100" height="100" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="PLCnext_Arp_Plc_Eclr_b_Light_Failure_Water" MechanicStyle="1" CentralZero="0" PushStyleEx3="8" PushStyleEx2="8" PushStyleEx="8" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Button</object>
+<type x="310" y="600" width="100" height="100" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="PLCnext_Arp_Plc_Eclr_b_Light_Electrical_Failure" MechanicStyle="1" CentralZero="0" PushStyleEx3="8" PushStyleEx2="8" PushStyleEx="8" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="260" y="570" width="-190" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Century" font-size="20" text-anchor="middle" font-weight="700" pf="34" f3D="0" XOffset="0" YOffset="0">Altura Max</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="450" y="570" width="-190" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Century" font-size="20" text-anchor="middle" font-weight="700" pf="34" f3D="0" XOffset="0" YOffset="0">Eléctrica</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="680" y="570" width="-230" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Century" font-size="20" text-anchor="middle" font-weight="700" pf="34" f3D="0" XOffset="0" YOffset="0">Cisterna Vacía</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="930" y="570" width="-230" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Century" font-size="20" text-anchor="middle" font-weight="700" pf="34" f3D="0" XOffset="0" YOffset="0">Presión Cañeria</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>AlarmWnd</object>
+<type x="70" y="80" width="830" height="470" fill="rgb(0,0,0)" stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>4</Border>
+<style Text="" On="" Ack="" Off="" Reset="" Duration="" TotalTimeOn="" TotalNumOn="" TotalNumAck="" TotalNumReset="" Severity="" Status="" Condition="" Image="" TextPos="0" OnPos="1" AckPos="-1" OffPos="-1" ResetPos="-1" DurationPos="2" TotalTimeOnPos="-1" TotalNumOnPos="-1" TotalNumAckPos="-1" TotalNumResetPos="-1" SeverityPos="3" StatusPos="-1" ConditionPos="4" ImagePos="-1" FormatDateTime="" FormatDuration="" IncludeMilliseconds="0" BackHisCol="2147483653" TextHisCol="2147483656" TextWidth="-1" OnWidth="-1" AckWidth="-1" OffWidth="-1" ResetWidth="-1" DurationWidth="-1" TotalTimeOnWidth="-1" TotalNumOnWidth="-1" TotalNumAckWidth="-1" TotalNumResetWidth="-1" SeverityWidth="-1" StatusWidth="-1" ConditionWidth="-1" ImageWidth="-1" AutoLayout="1" ShowControl="1" OpenPreview="0" Clickable="1" IconBtn="1" AckSel="1" AckAll="1" ResetSel="1" ResetAll="1" SoundOn="1" Help="1" GetHistory="1" Comment="1" Size="0" Pos="3" AckSelTxt="" AckAllTxt="" ResetSelTxt="" ResetAllTxt="" SoundOnTxt="" HelpTxt="" GetHistoryTxt="" CommentTxt=""/>
+<execution BlinkTime="1000" NetworkServer="" BackupServer="" MaxCount="1000" Refresh="1000" OPCAEServer="" MaxOPCAEEvents="1000"/>
+<Filter Area="" Alarm="" type="15" severity="0" condition="0"/>
+<ListFont font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" XOffset="0" YOffset="0"/>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>

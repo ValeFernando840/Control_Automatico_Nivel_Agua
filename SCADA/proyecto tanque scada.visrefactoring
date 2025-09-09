@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Refactoring>
+<ListRefactor>
+<ChildRefactor>
+<type ImageId="155" Category="OPCUAItem" Var="PLCnext_Arp_Plc_Eclr_Height_Level" ResourceName="PLCnext_Arp_Plc_Eclr_Height_Level" Index="0" Missing="0" ShortResourceName="PLCnext_Arp_Plc_Eclr_Height_Level" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="155" Category="OPCUAItem" Var="PLCnext_Arp_Plc_Eclr_Marcha_Remota" ResourceName="PLCnext_Arp_Plc_Eclr_Marcha_Remota" Index="0" Missing="0" ShortResourceName="PLCnext_Arp_Plc_Eclr_Marcha_Remota" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="155" Category="OPCUAItem" Var="PLCnext_Arp_Plc_Eclr_Parada_Remota" ResourceName="PLCnext_Arp_Plc_Eclr_Parada_Remota" Index="0" Missing="0" ShortResourceName="PLCnext_Arp_Plc_Eclr_Parada_Remota" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Category="Button" szAction="Check Button" Var="PLCnext_Arp_Plc_Eclr_Marcha_Remota" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="4" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Category="Button" szAction="Check Button" Var="PLCnext_Arp_Plc_Eclr_Parada_Remota" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="5" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Category="Button" szAction="Check Button" Var="PLCnext_Arp_Plc_Eclr_Luz_Proceso" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="8" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Category="Button" szAction="Check Button" Var="PLCnext_Arp_Plc_Eclr_Switch_Manual_Remoto" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="10" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Category="Button" szAction="Check Button" Var="PLCnext_Arp_Plc_Eclr_Luz_Manual" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="12" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Category="Button" szAction="Check Button" Var="PLCnext_Arp_Plc_Eclr_Luz_Remoto" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="13" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="78" Category="Gauge" szAction="Gauge" Var="PLCnext_Arp_Plc_Eclr_Set_Point_Remoto" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="17" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="79" Category="Symbol" szAction="Filling" Var="Level_Tank_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="37" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="79" Category="Symbol" szAction="Background Color" Var="PLCnext_Arp_Plc_Eclr_Height" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="37" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="79" Category="Symbol" szAction="Filling" Var="Level_Tank_1" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="40" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="78" Category="Gauge" szAction="Gauge" Var="PLCnext_Arp_Plc_Eclr_Velocidad_Manual" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="45" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="78" Category="Gauge" szAction="Gauge Bar Offset" Var="15" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="45" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="78" Category="Gauge" szAction="Gauge Max." Var="50" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="45" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="78" Category="Gauge" szAction="Gauge Min." Var="15" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\Comandos.visscr" Index="45" Missing="0" OutOfScreenPosition="0" ShortScreenName="Comandos" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button1" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\comandos.visscr" Index="1" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button2" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\lecturas.visscr" Index="2" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button3" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\screen3.visscr" Index="3" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button4" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\screen4.visscr" Index="4" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button5" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\screen5.visscr" Index="5" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button6" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\alarmas.visscr" Index="6" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button7" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\eventos.visscr" Index="7" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button8" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\trend1.visscr" Index="8" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button9" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="trend2" Index="9" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="90" Name="NavigationBar - Button10" Category="Command on release" Var="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\NavigationBar.visscr" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\system state.visscr" Index="10" Missing="0" ShortResourceName="Button">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryTotalPhys" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="3" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="3" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryAvailPhys" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="5" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="5" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryLoad" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="7" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="7" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryTotalPageFile" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="9" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="9" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryAvailPageFile" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="11" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="11" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryTotalVirtual" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="13" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="13" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:MemoryAvailVirtual" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="15" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="15" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:PeekInUseByte" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="18" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="18" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:TotalInUseByte" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="20" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="20" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:ActDateString" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="22" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="22" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:ActTimeString" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="23" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="23" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceDataUserPath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="25" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="25" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceAlarmPath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="27" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="27" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceDLRPath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="29" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="29" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceImagePath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="31" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="31" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceLogPath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="33" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="33" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceNetworkUserPath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="35" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="35" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:FreeSpaceResourcePath" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="37" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="37" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:ILLogicCycleTime" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="39" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="39" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_:LoginUserName" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="41" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="97" Category="EditBox-Display" szAction="EditBox-Display" Var="_SysVar_" ScreenName="C:\USERS\ALEXIS\DESKTOP\FACULTAD\ELECTRONICA_INDUSTRIAL\PROYECTOTANQUE\PROYECTO TANQUE SCADA\RESOURCES\PROYECTO TANQUE SCADA\System state.visscr" Index="41" Missing="0" OutOfScreenPosition="0" ShortScreenName="System state" Reason="4294967295">RefactorScreenVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="1" Name="Proyecto Tanque SCADA" Category="Startup Screen" Var="Project" ResourceName="c:\users\alexis\desktop\facultad\electronica_industrial\proyectotanque\proyecto tanque scada\resources\proyecto tanque scada\comandos.visscr" Index="0" Missing="0" ShortResourceName="Project">RefactorGenericResourceScreen</type>
+</ChildRefactor>
+</ListRefactor>
+</Refactoring>

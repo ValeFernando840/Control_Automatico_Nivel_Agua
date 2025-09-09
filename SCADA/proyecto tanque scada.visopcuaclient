@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<OPCClientEditor>
+<OPCUAClientData StartupWaitTimeout="30000" DiscoveryUrl="opc.tcp://localhost:4840"/>
+<OPCUAList>
+<UAServer>
+<Server Endpoint="opc.tcp://192.168.1.11:4840" ApplUri="" SecMode="1" SecPol="a" StrongSec="0" ReconnectTime="10000" User="admin" Pwd="72231087" BackupEndpoint="" StatusVariable="" Retries="3">opc.tcp://192.168.1.11:4840-Sign</Server>
+<NSTable n0="http://opcfoundation.org/UA/" n1="urn:axc-f-1152-1:PhoenixContact:eUAServer" n2="http://opcfoundation.org/UA/DI/" n3="http://phoenixcontact.com/OpcUA/PLCnext/" n4="http://phoenixcontact.com/OpcUA/Devices/AXCF2152" n5="http://phoenixcontact.com/OpcUA/PLCnext/Devices/" n6="http://phoenixcontact.com/OpcUA/PLCnext/GlobalDataSpace/" n7="http://phoenixcontact.com/OpcUA/PLCnext/Alarms/"/>
+<SessionList>
+<Session>
+<Name ConnTO="2000" WatchTO="5000" AutoReconn="1" SamplInt="500" PubInt="1000" SamplIntNotInUse="3000" WatchTime="5000" SessTO="60000" DefNS="" SessVar="" SessEn="1">Session one</Name>
+<ItemList>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/b_Light_Electrical_Failure" Variable="PLCnext_Arp_Plc_Eclr_b_Light_Electrical_Failure" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_b_Light_Electrical_Failure</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/b_Light_Failure_Water" Variable="PLCnext_Arp_Plc_Eclr_b_Light_Failure_Water" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_b_Light_Failure_Water</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/b_Light_Maximum_Height_Exceeded" Variable="PLCnext_Arp_Plc_Eclr_b_Light_Maximum_Height_Exceeded" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_b_Light_Maximum_Height_Exceeded</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/b_Light_Pump_Pressure_Failure" Variable="PLCnext_Arp_Plc_Eclr_b_Light_Pump_Pressure_Failure" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_b_Light_Pump_Pressure_Failure</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Failure_Water" Variable="PLCnext_Arp_Plc_Eclr_Failure_Water" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Failure_Water</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Height_Level" Variable="PLCnext_Arp_Plc_Eclr_Height_Level" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Height_Level</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Height_Level_Int" Variable="PLCnext_Arp_Plc_Eclr_Height_Level_Int" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Height_Level_Int</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Height_Percentage" Variable="PLCnext_Arp_Plc_Eclr_Height_Percentage" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Height_Percentage</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Luz_Falla" Variable="PLCnext_Arp_Plc_Eclr_Luz_Falla" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Luz_Falla</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Luz_Manual" Variable="PLCnext_Arp_Plc_Eclr_Luz_Manual" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Luz_Manual</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Luz_Proceso" Variable="PLCnext_Arp_Plc_Eclr_Luz_Proceso" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Luz_Proceso</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Luz_Remoto" Variable="PLCnext_Arp_Plc_Eclr_Luz_Remoto" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Luz_Remoto</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Marcha_Remota" Variable="PLCnext_Arp_Plc_Eclr_Marcha_Remota" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Marcha_Remota</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Maximum_Height_Exceeded" Variable="PLCnext_Arp_Plc_Eclr_Maximum_Height_Exceeded" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Maximum_Height_Exceeded</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Mean_Pressure" Variable="PLCnext_Arp_Plc_Eclr_Mean_Pressure" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Mean_Pressure</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Parada_Remota" Variable="PLCnext_Arp_Plc_Eclr_Parada_Remota" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Parada_Remota</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Pressure_In_The_Pump" Variable="PLCnext_Arp_Plc_Eclr_Pressure_In_The_Pump" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Pressure_In_The_Pump</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Pump_Pressure_Failure" Variable="PLCnext_Arp_Plc_Eclr_Pump_Pressure_Failure" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Pump_Pressure_Failure</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Salida_Caudalimetro" Variable="PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Set_Point_Remoto" Variable="PLCnext_Arp_Plc_Eclr_Set_Point_Remoto" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Set_Point_Remoto</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Switch_Manual" Variable="PLCnext_Arp_Plc_Eclr_Switch_Manual" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Switch_Manual</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Switch_Manual_Remoto" Variable="PLCnext_Arp_Plc_Eclr_Switch_Manual_Remoto" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Switch_Manual_Remoto</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/System_Failure" Variable="PLCnext_Arp_Plc_Eclr_System_Failure" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_System_Failure</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Velocidad_Manual" Variable="PLCnext_Arp_Plc_Eclr_Velocidad_Manual" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Velocidad_Manual</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Set_Point_Local" Variable="PLCnext_Arp_Plc_Eclr_Set_Point_Local" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Set_Point_Local</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Set_Point_Local_Value" Variable="PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/OffSet_Height" Variable="PLCnext_Arp_Plc_Eclr_OffSet_Height" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_OffSet_Height</ItemName>
+</Item>
+</ItemList>
+</Session>
+</SessionList>
+</UAServer>
+</OPCUAList>
+</OPCClientEditor>

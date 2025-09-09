@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="2" SizeX="1024" SizeY="768" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="0" YBackImage="0" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="16777215" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="1" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="1" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ListSynopticDraw>
+<child>
+<object>base</object>
+<type x="0" y="0" width="1024" height="61" fill="rgb(64,64,64)" stroke="rgb(255,255,255)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="rgb(64,64,64)">0</ExtFill>
+<Name acr="4294901760"/>
+<text font-family="Tahoma" font-size="30" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">Lecturas</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>EmbView</object>
+<EmbeddedView x="2" y="707" width="1020" height="59" Name="NavigationBar" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Gauge</object>
+<gauge x="70" y="540" width="100" height="120" fill="none" stroke="none"/>
+<style fmtscale="x">2</style>
+<border>0</border>
+<show slider="0"/>
+<colors slider="2147483664" knob="2147483653" barbk="2147483664" barfill="2147483652" scale="2147483666" needleedge="0" needlebk="255" needleshadow="2147483664"/>
+<execution var="PLCnext_Arp_Plc_Eclr_Mean_Pressure" max="5" knobstyle="8"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" XOffset="0" YOffset="0"/>
+<zone0 color="65280" start="0" end="70" startVar="" endVar="">0</zone0>
+<zone1 color="65535" start="70" end="90" startVar="" endVar="">0</zone1>
+<zone2 color="255" start="90" end="100" startVar="" endVar="">0</zone2>
+<zone3 color="11434057" start="0" end="0" startVar="" endVar="">0</zone3>
+<zone4 color="14627633" start="0" end="0" startVar="" endVar="">0</zone4>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Gauge</object>
+<gauge x="780" y="550" width="80" height="150" fill="none" stroke="none"/>
+<style gap="2" fmtscale="x">3</style>
+<border>0</border>
+<show slider="0" bar="1" Circular3D="0"/>
+<colors slider="2147483664" knob="2147483653" barbk="0" barfill="2147483652" scale="2147483666" needleedge="2147483664" needlebk="2147483663" needleshadow="2147483664"/>
+<execution var="PLCnext_Arp_Plc_Eclr_Height_Level" max="40" startangle="270" endangle="90" knobstyle="3"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" XOffset="0" YOffset="0"/>
+<zone0 color="65280" start="0" end="70" startVar="" endVar="">0</zone0>
+<zone1 color="65535" start="70" end="90" startVar="" endVar="">0</zone1>
+<zone2 color="255" start="90" end="100" startVar="" endVar="">0</zone2>
+<zone3 color="11434057" start="0" end="0" startVar="" endVar="">0</zone3>
+<zone4 color="14627633" start="0" end="0" startVar="" endVar="">0</zone4>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="200" y="570" width="-160" height="-70" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Presión</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="920" y="560" width="-190" height="-50" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Nivel de Agua</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Trend</object>
+<trend x="0" y="70" width="1000" height="220" fill="rgb(255,255,255)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<pens>
+<pen>
+<name var="PLCnext_Arp_Plc_Eclr_Height_Level" min="0" max="35" scale="0" fmt="x" stroke="rgb(0,192,0)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" hatch="hatch(3)" fill="rgb(110,114,75)">PLCnext_Arp_Plc_Eclr_Height_Level</name>
+<showmin stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmin>
+<showmax stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmax>
+<showav stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showav>
+</pen>
+<pen>
+<name var="PLCnext_Arp_Plc_Eclr_Set_Point_Remoto" min="0" max="35" fmt="x" stroke="rgb(255,0,0)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" hatch="hatch(3)" fill="rgb(172,50,45)">PLCnext_Arp_Plc_Eclr_Set_Point_Remoto</name>
+<showmin stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmin>
+<showmax stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmax>
+<showav stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showav>
+</pen>
+<pen>
+<name var="PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value" min="0" max="35" scale="0" fmt="x" stroke="rgb(0,0,192)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" hatch="hatch(3)" fill="rgb(163,12,10)">PLCnext_Arp_Plc_Eclr_Set_Point_Local_Value</name>
+<showmin stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmin>
+<showmax stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmax>
+<showav stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showav>
+</pen>
+</pens>
+<borders>4</borders>
+<grid/>
+<style ttcol="8388608" ShowPagePrevBtn="1" ShowPrevBtn="1" ShowPauseRunBtn="1" ShowNextBtn="1" ShowPageNextBtn="1" ShowZoomBtn="0" ShowPrintBtn="1" ButtonSize="0" ButtonPos="3" PagePrevBtnText="" PrevBtnText="" PauseRunBtnText="" NextBtnText="" PageNextBtnText="" ExpandBtnText="" ZoomBtnText="" MeasureBtnText="" FirstPointBtnText="" LastPointBtnText="" NextPointBtnText="" PrevPointBtnText="" NoneBtnText="" AllBtnText="" SecBtnText="" MinBtnText="" HourBtnText="" DayBtnText="" WeekBtnText="" MonthBtnText="" YearBtnText="" PrintBtnText="">0</style>
+<execution samples="3600" recsec="5" recmsec="0" LoadOnSeparateThread="1"/>
+<variables/>
+<trendarea fill="none"/>
+<penarea fill="none"/>
+<timearea fill="none"/>
+<legendarea fill="none"/>
+<persistance logger="SetPoints y Hight level">0</persistance>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" XOffset="0" YOffset="0"/>
+<legendfont font-family="Tahoma" font-size="8" text-anchor="middle" XOffset="0" YOffset="0"/>
+<timefont font-family="Tahoma" font-size="8" text-anchor="middle" XOffset="0" YOffset="0"/>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Trend</object>
+<trend x="10" y="290" width="1000" height="220" fill="rgb(255,255,255)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<pens>
+<pen>
+<name var="PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro" min="0" fmt="x" stroke="rgb(9,173,175)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" hatch="hatch(3)" fill="rgb(216,131,41)">PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro</name>
+<showmin stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmin>
+<showmax stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showmax>
+<showav stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">0</showav>
+</pen>
+</pens>
+<borders>4</borders>
+<grid/>
+<style ttcol="8388608" ShowPagePrevBtn="1" ShowPrevBtn="1" ShowPauseRunBtn="1" ShowNextBtn="1" ShowPageNextBtn="1" ShowZoomBtn="0" ShowPrintBtn="1" ButtonSize="0" ButtonPos="3" PagePrevBtnText="" PrevBtnText="" PauseRunBtnText="" NextBtnText="" PageNextBtnText="" ExpandBtnText="" ZoomBtnText="" MeasureBtnText="" FirstPointBtnText="" LastPointBtnText="" NextPointBtnText="" PrevPointBtnText="" NoneBtnText="" AllBtnText="" SecBtnText="" MinBtnText="" HourBtnText="" DayBtnText="" WeekBtnText="" MonthBtnText="" YearBtnText="" PrintBtnText="">0</style>
+<execution samples="3600" recsec="5" recmsec="0" LoadOnSeparateThread="1"/>
+<variables/>
+<trendarea fill="none"/>
+<penarea fill="none"/>
+<timearea fill="none"/>
+<legendarea fill="none"/>
+<persistance logger="Caudalimetro">0</persistance>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" XOffset="0" YOffset="0"/>
+<legendfont font-family="Tahoma" font-size="8" text-anchor="middle" XOffset="0" YOffset="0"/>
+<timefont font-family="Tahoma" font-size="8" text-anchor="middle" XOffset="0" YOffset="0"/>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Edit</object>
+<editbox x="30" y="660" width="100" height="30" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<style spin="0" edit="0" fmtscale="x.xxx"/>
+<border>4</border>
+<execution var="PLCnext_Arp_Plc_Eclr_Mean_Pressure" DisplayStatistic="4"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Edit</object>
+<editbox x="860" y="650" width="70" height="30" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<style spin="0" edit="0" fmtscale="x.x"/>
+<border>4</border>
+<execution var="PLCnext_Arp_Plc_Eclr_Height_Level"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="990" y="690" width="-70" height="-50" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">[cm]</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="210" y="690" width="-80" height="-30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">[kPa]</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Gauge</object>
+<gauge x="230" y="540" width="240" height="170" fill="none" stroke="none"/>
+<style fmtscale="x">2</style>
+<border>0</border>
+<show slider="0" Circular3D="0"/>
+<colors slider="2147483664" knob="2147483653" barbk="2147483664" barfill="2147483652" scale="2147483666" needleedge="0" needlebk="255" needleshadow="2147483664"/>
+<execution var="PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro" startangle="270" endangle="90" knobstyle="8"/>
+<ExtFill fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" XOffset="0" YOffset="0"/>
+<zone0 color="65280" start="0" end="70" startVar="" endVar="">0</zone0>
+<zone1 color="65535" start="70" end="90" startVar="" endVar="">0</zone1>
+<zone2 color="255" start="90" end="100" startVar="" endVar="">0</zone2>
+<zone3 color="11434057" start="0" end="0" startVar="" endVar="">0</zone3>
+<zone4 color="14627633" start="0" end="0" startVar="" endVar="">0</zone4>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Edit</object>
+<editbox x="280" y="660" width="70" height="30" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<style spin="0" edit="0" fmtscale="x.xx"/>
+<border>4</border>
+<execution var="PLCnext_Arp_Plc_Eclr_Salida_Caudalimetro"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="450" y="690" width="-100" height="-30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">[L/min]</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Gauge</object>
+<gauge x="490" y="540" width="240" height="170" fill="none" stroke="none"/>
+<style fmtscale="x">2</style>
+<border>0</border>
+<show slider="0" Circular3D="0"/>
+<colors slider="2147483664" knob="2147483653" barbk="2147483664" barfill="2147483652" scale="2147483666" needleedge="0" needlebk="255" needleshadow="2147483664"/>
+<execution var="PLCnext_Arp_Plc_Eclr_Pressure_In_The_Pump" startangle="270" endangle="90" knobstyle="8"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<scalefont font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" XOffset="0" YOffset="0"/>
+<zone0 color="65280" start="0" end="70" startVar="" endVar="">0</zone0>
+<zone1 color="65535" start="70" end="90" startVar="" endVar="">0</zone1>
+<zone2 color="255" start="90" end="100" startVar="" endVar="">0</zone2>
+<zone3 color="11434057" start="0" end="0" startVar="" endVar="">0</zone3>
+<zone4 color="14627633" start="0" end="0" startVar="" endVar="">0</zone4>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Edit</object>
+<editbox x="540" y="660" width="70" height="30" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<style spin="0" edit="0" fmtscale="x.xx"/>
+<border>4</border>
+<execution var="PLCnext_Arp_Plc_Eclr_Pressure_In_The_Pump"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="690" y="690" width="-80" height="-30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">[kPa]</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="430" y="570" width="-160" height="-70" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Caudal</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="710" y="570" width="-190" height="-70" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="458752" acw="458752" AccessLevel="1"/>
+<text font-family="Verdana" font-size="16" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Presion Bomba</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>

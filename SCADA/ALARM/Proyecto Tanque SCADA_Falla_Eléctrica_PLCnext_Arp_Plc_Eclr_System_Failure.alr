@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Alarm>
+<Status TimeOn="2025-03-14T14:55:15Z" MsOn="601" TimeOff="2025-03-14T14:55:50Z" MsOff="624" TimeAck="2025-03-14T14:55:54Z" MsAck="180" TotTimeOn="0,00:27:11" LastTimeOn="1899-12-30T00:00:00Z" TotNumOn="10" TotNumAck="8" TotNumReset="0" UniqueID="12284" TransactionID="10" LastComment="">ACKOFF</Status>
+<MapTextVarValue/>
+</Alarm>
